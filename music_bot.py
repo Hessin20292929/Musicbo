@@ -12,7 +12,7 @@ import datetime # For formatting duration in nowplaying
 # On Windows (PowerShell): $env:DISCORD_MUSIC_BOT_TOKEN="YOUR_TOKEN_HERE"
 # Or, for testing ONLY, you can uncomment and set it here:
 # BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
-BOT_TOKEN = os.environ.get("DISCORD_MUSIC_BOT_TOKEN")
+BOT_TOKEN = os.environ.get("MTM3OTczNDcxNzgyMTA5MTk1MQ.GkITdv.sZi4blXr4FQyiQGZDuUw7-qmngXDXjf43hE1Zc")
 
 if not BOT_TOKEN:
     print("CRITICAL: Bot token not found. Please set the DISCORD_MUSIC_BOT_TOKEN environment variable.")
