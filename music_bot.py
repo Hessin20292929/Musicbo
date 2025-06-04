@@ -5,7 +5,7 @@ import yt_dlp
 import os
 from collections import deque
 import datetime # For formatting duration in nowplaying
-
+import nacl
 # --- Bot Configuration ---
 # IMPORTANT: Set your bot token as an environment variable for security.
 # On Linux/macOS: export DISCORD_MUSIC_BOT_TOKEN="YOUR_TOKEN_HERE"
